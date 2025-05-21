@@ -1,0 +1,26 @@
+{
+    "project": "smart-dispatch-saas",
+    "vision": "Build a SaaS platform that uses load board scraping + graph algorithms to optimize daily box truck routing from a home city (e.g. Indy). The system should suggest and score multi-load chains, learn from historical data, and simplify human dispatcher decision-making.",
+    "goals": [
+      "Support scraping from multiple load boards (DAT, Truckstop, Relay, etc.) with unified load schema",
+      "Implement an extensible freight graph where each load is an edge and cities are nodes",
+      "Support route simulation with constraints (hours of service, weight, distance, equipment type)",
+      "Score routes based on RPM, broker trust score, deadhead % and delivery reliability",
+      "Expose route recommendations via UI and API for dispatcher consumption",
+      "Add user accounts, saved routes, and real-time load updates (via scraping or broker APIs)",
+      "Eventually integrate booking automation and historical earnings analysis"
+    ],
+    "rules": [
+      "All data must be deduplicated using fuzzy matching and signature hashing",
+      "Each load must have metadata: broker, rate, equipment, pickup/delivery windows, and source",
+      "The freight graph should be rebuildable for any given day using scraped data",
+      "Pathfinding logic must be constraint-aware (time, weight, return-to-origin)",
+      "Scraping frequency must respect site terms and throttle dynamically to avoid bans",
+      "Broker scoring will be modular — start with credit terms, expand with real-world metrics",
+      "Dispatch UI should hide complexity and only surface the top 1–3 best load chains",
+      "Eventually implement a scoring engine that uses RPM, broker reliability, load-to-load compatibility, and historic route earnings to rank load chains.",
+      "Support dynamic pathfinding across multiple days, allowing overnight rest and multi-day routes when driver hours reset.",
+      "Allow integration of external APIs for weather, traffic, and rate benchmarking to dynamically adjust route weights and recommendations."            
+    ]
+  }
+  

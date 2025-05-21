@@ -1,0 +1,31 @@
+{
+    "project": "box-truck-dispatch-engine",
+    "goals": [
+      "Build a Playwright scraper to extract loads from NextLOAD.com, and dat.com and eventually more with filters for box trucks (Indy origin, same-day trip)",
+      "Normalize scraped loads into a unified TypeScript type and store them in Supabase",
+      "Represent each load as a directed edge in a temporal-spatial graph (city-to-city, with pickup/delivery windows)",
+      "Implement a greedy load chaining function that connects Indy → X → Y → Indy if possible",
+      "Print out suggested route chains in JSON format with total RPM, miles, and deadhead penalty",
+      "Keep UI minimal for now — command-line or simple page with TRPC trigger is sufficient",
+      "Ideally we are trying to build a MVP that can be used by a trucking company to dispatch loads and automate the dispatching process, keep in mind we must be human-friendly",
+      "Each node in the graph represents a location (city/state or lat/lng). Nodes may also carry metadata such as region, time zone, or average market rate.",
+      "Each edge represents a load and must include: origin, destination, pickup window, delivery window, rate, miles, and optionally broker ID and source.",
+      "Each edge must be directed and time-aware — edges can only connect if the previous delivery time is before the next pickup time and if the location is within a realistic deadhead radius (e.g. <100mi).",
+      "All pathfinding logic must consider temporal constraints (pickup/delivery windows) as hard constraints, not optional filters.",
+      "Each load (edge) must include computed weight fields: rate per mile (RPM), deadhead distance (from previous destination), and a total route score (custom formula).",
+      "Graph traversal must allow multi-hop paths with constraints: max 500 miles total, max 14 hours total driving time (account for dwell/load time as well).",
+      "Load chaining must support a return-to-origin preference (i.e., circular paths preferred when profitable).",
+      "The graph should be modular — able to be rebuilt daily (or on demand) with new load data from multiple sources.",
+      "A given node (city) may have multiple outgoing edges (loads), and a valid path is a sequence of edges whose timing and geography align under constraints.",
+      "We want to keep total mileage per day under 500 miles, and under 14 hours of driving time. the amount of loads will vary considering pickup/delivery windows",
+      "Think of this as a weighted graph, where the weight is the RPM (and eventually the broker score, and all of the other factors that go into the total score) and the edges are the loads"
+    ],
+    "rules": [
+      "All scraping code should live in `src/lib/scraper/`",
+      "All graph logic should live in `src/lib/graph/` and be purely functional",
+      "Load chains must obey pickup/delivery windows and max 500-mile/day limit",
+      "Each load must be uniquely identifiable across multiple load boards (normalize source + broker + timestamps)",
+      "Rate-per-mile (RPM) is the default scoring metric for all route chains"
+    ]
+  }
+  

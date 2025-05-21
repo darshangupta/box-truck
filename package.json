@@ -1,0 +1,44 @@
+{
+  "name": "box-truck",
+  "version": "1.0.0",
+  "description": "SaaS platform for box truck dispatch optimization",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshangupta/box-truck.git"
+  },
+  "keywords": [
+    "trucking",
+    "dispatch",
+    "saas",
+    "typescript",
+    "trpc",
+    "nextjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darshangupta/box-truck/issues"
+  },
+  "homepage": "https://github.com/darshangupta/box-truck#readme",
+  "dependencies": {
+    "@trpc/server": "^10.0.0",
+    "date-fns": "^4.1.0",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "project": "truck-saas-tech-stack",
+    "vision": "Use a unified, TypeScript-first tech stack to build a dispatch automation platform that scales from a browser-based MVP to a full SaaS with mobile access, high performance, and maintainable developer velocity.",
+    "goals": [
+      "Use a monorepo with Next.js (App Router), shadcn/ui, TRPC, and Supabase as the backend",
+      "Write the scraper logic in TypeScript using Playwright and store normalized load data in Supabase",
+      "Build a minimal admin/operator-facing UI to trigger scrapes and visualize load chains",
+      "Keep the architecture modular to allow for isolated development of scraping, dispatch intelligence, and UI components",
+      "Plan for eventual mobile app support (driver view, mobile load booking, status updates)"
+    ],
+    "rules": [
+      "All code should be written in TypeScript — full-stack TS with strict type safety is required",
+      "Use TRPC for all frontend-backend communication to eliminate schema duplication",
+      "Supabase is the primary DB + auth layer — schema migrations should be tracked with SQL or `pg` CLI",
+      "Use shadcn/ui for all admin/operator-facing interfaces — keep UI clean, minimal, and accessible",
+      "Scrapers should run in a background queue system eventually (initially triggered manually via TRPC)",
+      "Mobile app should be developed in Expo + React Native, using shared types and TRPC API calls",
+      "Design API endpoints and data flow to be platform-agnostic: desktop UI, mobile driver app, internal CLI should all share the same logic",
+      "Avoid adding unnecessary abstractions — ship the MVP fast with direct logic, then modularize where pain emerges"
+    ]
+  }
+  

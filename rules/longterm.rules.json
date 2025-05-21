@@ -21,6 +21,10 @@
       "Eventually implement a scoring engine that uses RPM, broker reliability, load-to-load compatibility, and historic route earnings to rank load chains.",
       "Support dynamic pathfinding across multiple days, allowing overnight rest and multi-day routes when driver hours reset.",
       "Allow integration of external APIs for weather, traffic, and rate benchmarking to dynamically adjust route weights and recommendations."            
+    ],
+    "general": [
+        "All terminal commands should be runnable from the composer",
+        "Don't try to be better. Be better. We are building a better product than any other product in the market."
     ]
   }
   

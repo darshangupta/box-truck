@@ -18,14 +18,17 @@
       "The graph should be modular — able to be rebuilt daily (or on demand) with new load data from multiple sources.",
       "A given node (city) may have multiple outgoing edges (loads), and a valid path is a sequence of edges whose timing and geography align under constraints.",
       "We want to keep total mileage per day under 500 miles, and under 14 hours of driving time. the amount of loads will vary considering pickup/delivery windows",
-      "Think of this as a weighted graph, where the weight is the RPM (and eventually the broker score, and all of the other factors that go into the total score) and the edges are the loads"
+      "Think of this as a weighted graph, where the weight is the RPM (and eventually the broker score, and all of the other factors that go into the total score) and the edges are the loads",
+      "The system must optimize around a 'base load' (X → Y) by finding profitable loads to/from origin, creating paths like: origin → A → X → Y → B → origin, where A and B are optional intermediate loads that maximize profit while maintaining constraints"
     ],
     "rules": [
       "All scraping code should live in `src/lib/scraper/`",
       "All graph logic should live in `src/lib/graph/` and be purely functional",
       "Load chains must obey pickup/delivery windows and max 500-mile/day limit",
       "Each load must be uniquely identifiable across multiple load boards (normalize source + broker + timestamps)",
-      "Rate-per-mile (RPM) is the default scoring metric for all route chains"
+      "Rate-per-mile (RPM) is the default scoring metric for all route chains",
+      "Path finding must consider the base load (X → Y) as the anchor point and optimize the legs to/from origin",
+      "Maximum of 4 loads per day to maintain realistic operational constraints"
     ]
   }
   

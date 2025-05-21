@@ -1,0 +1,23 @@
+{
+    "project": "broker-crm-feedback-loop",
+    "vision": "Track, engage, and score brokers extracted from load board data to determine which freight is actually bookable. Use this feedback to enrich the dispatch engine's graph and prioritize real-world viable routes.",
+    "goals": [
+      "Extract and normalize broker data from each scraped load",
+      "Store brokers in a Supabase `brokers` table with key contact fields",
+      "Track broker engagement in a `broker_engagement` table (status, reply, timestamp)",
+      "Build a minimal public-facing landing page with company info and contact form to increase broker trust",
+      "Automate outbound broker email outreach based on scraped load data",
+      "Log replies and optionally use LLM parsing to classify them as 'interested', 'not available', or 'needs follow-up'",
+      "Feed broker engagement scores into load chaining logic to deprioritize unresponsive brokers"
+    ],
+    "rules": [
+      "Each broker must be uniquely identified by MC number if available, otherwise by normalized name + contact info",
+      "Brokers must be extracted and deduplicated during scraping and stored separately from loads",
+      "A broker's engagement score (0–100) is calculated from reply rates, call outcomes, and historical availability",
+      "Engagement score should be used as a weight modifier in route scoring (e.g. reduce weight for non-responsive brokers)",
+      "Outbound emails should be logged in `broker_engagement` with timestamp, broker ID, load ID, and status",
+      "A reply classifier should tag each inbound email with status: 'available', 'unavailable', 'needs call', or 'invalid contact'",
+      "Landing page should be hosted publicly with basic brand info, value prop for brokers, and a contact form for manual inbound outreach"
+    ]
+  }
+  

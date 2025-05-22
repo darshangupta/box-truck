@@ -10,7 +10,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "script": "ts-node-esm",
+    "script": "node --loader ts-node/esm --experimental-specifier-resolution=node -r tsconfig-paths/register",
     "generate": "npm run script src/lib/scripts/generateLoads.ts",
     "test-loads": "npm run script src/lib/scripts/testLoads.ts"
   },
@@ -45,6 +45,7 @@
   "devDependencies": {
     "@types/node": "^20.0.0",
     "@types/react": "^18.0.0",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.0.0"
   }
 }

@@ -1,0 +1,7402 @@
+[
+  {
+    "id": "load_0_1747892058429",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:40:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T10:07:18.429Z",
+      "end": "2025-05-25T11:53:18.429Z"
+    },
+    "rate": 373,
+    "miles": 172.69128824895063,
+    "rpm": 2.16,
+    "equipmentType": "Flatbed",
+    "weight": 23915,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_1_1747892058430",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:44:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T10:04:18.429Z",
+      "end": "2025-05-22T10:42:18.429Z"
+    },
+    "rate": 421,
+    "miles": 167.05694622818672,
+    "rpm": 2.52,
+    "equipmentType": "Flatbed",
+    "weight": 22391,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_2_1747892058430",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:20:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T09:28:18.429Z",
+      "end": "2025-05-23T10:45:18.429Z"
+    },
+    "rate": 237,
+    "miles": 106.90043599259367,
+    "rpm": 2.22,
+    "equipmentType": "Reefer",
+    "weight": 21997,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_3_1747892058430",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T09:16:18.429Z",
+      "end": "2025-05-23T11:14:18.429Z"
+    },
+    "rate": 191,
+    "miles": 103.96439852239926,
+    "rpm": 1.84,
+    "equipmentType": "Dry Van",
+    "weight": 47062,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_4_1747892058430",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:23:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T10:43:18.429Z",
+      "end": "2025-05-29T11:28:18.429Z"
+    },
+    "rate": 322,
+    "miles": 166.9970237453924,
+    "rpm": 1.93,
+    "equipmentType": "Reefer",
+    "weight": 24149,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_5_1747892058430",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:26:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T08:50:18.429Z",
+      "end": "2025-05-25T09:28:18.429Z"
+    },
+    "rate": 163,
+    "miles": 70.01372001217051,
+    "rpm": 2.33,
+    "equipmentType": "Reefer",
+    "weight": 27283,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_6_1747892058430",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:50:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T08:54:18.429Z",
+      "end": "2025-05-25T10:19:18.429Z"
+    },
+    "rate": 192,
+    "miles": 103.6495414395159,
+    "rpm": 1.85,
+    "equipmentType": "Reefer",
+    "weight": 40622,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_7_1747892058430",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:21:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T07:52:18.429Z",
+      "end": "2025-05-22T08:51:18.429Z"
+    },
+    "rate": 157,
+    "miles": 75.43213248430803,
+    "rpm": 2.08,
+    "equipmentType": "Reefer",
+    "weight": 28616,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_8_1747892058430",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:26:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T10:46:18.429Z",
+      "end": "2025-05-26T11:50:18.429Z"
+    },
+    "rate": 314,
+    "miles": 166.9970237453924,
+    "rpm": 1.88,
+    "equipmentType": "Dry Van",
+    "weight": 31996,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_9_1747892058430",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T07:24:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T14:25:18.429Z",
+      "end": "2025-05-27T14:56:18.429Z"
+    },
+    "rate": 575,
+    "miles": 350.7126350452159,
+    "rpm": 1.64,
+    "equipmentType": "Dry Van",
+    "weight": 33642,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_10_1747892058430",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T07:04:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T08:32:18.429Z",
+      "end": "2025-05-22T09:50:18.429Z"
+    },
+    "rate": 181,
+    "miles": 73.41384437919643,
+    "rpm": 2.47,
+    "equipmentType": "Reefer",
+    "weight": 36011,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_11_1747892058430",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T07:08:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T10:24:18.429Z",
+      "end": "2025-05-22T11:23:18.429Z"
+    },
+    "rate": 293,
+    "miles": 163.6704464855973,
+    "rpm": 1.79,
+    "equipmentType": "Dry Van",
+    "weight": 39999,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_12_1747892058430",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:51:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T09:39:18.429Z",
+      "end": "2025-05-25T10:30:18.429Z"
+    },
+    "rate": 259,
+    "miles": 140.22712892914197,
+    "rpm": 1.85,
+    "equipmentType": "Dry Van",
+    "weight": 38169,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_13_1747892058430",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:07:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T08:09:18.429Z",
+      "end": "2025-05-28T09:48:18.429Z"
+    },
+    "rate": 122,
+    "miles": 51.81091600380247,
+    "rpm": 2.36,
+    "equipmentType": "Reefer",
+    "weight": 29594,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_14_1747892058430",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:48:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T10:05:18.429Z",
+      "end": "2025-05-23T11:56:18.429Z"
+    },
+    "rate": 441,
+    "miles": 164.4002238949631,
+    "rpm": 2.68,
+    "equipmentType": "Flatbed",
+    "weight": 24988,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_15_1747892058430",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:45:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T09:40:18.429Z",
+      "end": "2025-05-29T10:52:18.429Z"
+    },
+    "rate": 295,
+    "miles": 145.56474491152971,
+    "rpm": 2.03,
+    "equipmentType": "Dry Van",
+    "weight": 31044,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_16_1747892058430",
+    "origin": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:13:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T12:46:18.429Z",
+      "end": "2025-05-23T14:16:18.429Z"
+    },
+    "rate": 819,
+    "miles": 327.60772783536686,
+    "rpm": 2.5,
+    "equipmentType": "Flatbed",
+    "weight": 36144,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_17_1747892058430",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:14:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T08:38:18.429Z",
+      "end": "2025-05-29T09:40:18.429Z"
+    },
+    "rate": 149,
+    "miles": 69.73962743364693,
+    "rpm": 2.14,
+    "equipmentType": "Flatbed",
+    "weight": 26275,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_18_1747892058430",
+    "origin": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:29:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T11:53:18.429Z",
+      "end": "2025-05-23T13:11:18.429Z"
+    },
+    "rate": 519,
+    "miles": 219.75883969699902,
+    "rpm": 2.36,
+    "equipmentType": "Flatbed",
+    "weight": 35798,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_19_1747892058430",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:21:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T07:48:18.429Z",
+      "end": "2025-05-22T09:19:18.429Z"
+    },
+    "rate": 187,
+    "miles": 72.34698150296553,
+    "rpm": 2.58,
+    "equipmentType": "Flatbed",
+    "weight": 26968,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_20_1747892058430",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:17:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T07:41:18.429Z",
+      "end": "2025-05-29T09:05:18.429Z"
+    },
+    "rate": 167,
+    "miles": 69.73962743364693,
+    "rpm": 2.39,
+    "equipmentType": "Reefer",
+    "weight": 45990,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_21_1747892058430",
+    "origin": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:18:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T10:59:18.429Z",
+      "end": "2025-05-24T12:59:18.429Z"
+    },
+    "rate": 508,
+    "miles": 233.91933040831125,
+    "rpm": 2.17,
+    "equipmentType": "Dry Van",
+    "weight": 24896,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_22_1747892058430",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:09:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T08:46:18.429Z",
+      "end": "2025-05-29T10:23:18.429Z"
+    },
+    "rate": 286,
+    "miles": 131.1214702917011,
+    "rpm": 2.18,
+    "equipmentType": "Flatbed",
+    "weight": 41550,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_23_1747892058430",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:58:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T09:57:18.429Z",
+      "end": "2025-05-29T11:02:18.429Z"
+    },
+    "rate": 320,
+    "miles": 148.87152939010318,
+    "rpm": 2.15,
+    "equipmentType": "Dry Van",
+    "weight": 27043,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_24_1747892058430",
+    "origin": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:12:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T09:13:18.429Z",
+      "end": "2025-05-29T09:43:18.429Z"
+    },
+    "rate": 209,
+    "miles": 100.43336527832467,
+    "rpm": 2.08,
+    "equipmentType": "Flatbed",
+    "weight": 43425,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_25_1747892058430",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:03:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T08:21:18.429Z",
+      "end": "2025-05-25T08:51:18.429Z"
+    },
+    "rate": 138,
+    "miles": 64.78830253741503,
+    "rpm": 2.13,
+    "equipmentType": "Dry Van",
+    "weight": 32130,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_26_1747892058430",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:05:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T10:50:18.429Z",
+      "end": "2025-05-27T11:32:18.429Z"
+    },
+    "rate": 529,
+    "miles": 237.11216857060208,
+    "rpm": 2.23,
+    "equipmentType": "Flatbed",
+    "weight": 46971,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_27_1747892058430",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:01:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T08:25:18.429Z",
+      "end": "2025-05-28T09:54:18.429Z"
+    },
+    "rate": 152,
+    "miles": 69.73962743364693,
+    "rpm": 2.18,
+    "equipmentType": "Reefer",
+    "weight": 30521,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_28_1747892058430",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T10:26:18.429Z",
+      "end": "2025-05-26T11:42:18.429Z"
+    },
+    "rate": 430,
+    "miles": 212.66755428996666,
+    "rpm": 2.02,
+    "equipmentType": "Flatbed",
+    "weight": 40705,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_29_1747892058430",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:33:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T08:31:18.429Z",
+      "end": "2025-05-29T09:47:18.429Z"
+    },
+    "rate": 97,
+    "miles": 48.430712672190225,
+    "rpm": 2.01,
+    "equipmentType": "Dry Van",
+    "weight": 26814,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_30_1747892058430",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:54:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T11:03:18.429Z",
+      "end": "2025-05-22T11:35:18.429Z"
+    },
+    "rate": 383,
+    "miles": 207.29368237312474,
+    "rpm": 1.85,
+    "equipmentType": "Reefer",
+    "weight": 41180,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_31_1747892058430",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:16:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T09:04:18.429Z",
+      "end": "2025-05-25T10:21:18.429Z"
+    },
+    "rate": 278,
+    "miles": 140.22712892914197,
+    "rpm": 1.98,
+    "equipmentType": "Flatbed",
+    "weight": 38514,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_32_1747892058430",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:22:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T12:03:18.429Z",
+      "end": "2025-05-25T13:24:18.429Z"
+    },
+    "rate": 458,
+    "miles": 233.91933040831125,
+    "rpm": 1.96,
+    "equipmentType": "Dry Van",
+    "weight": 43419,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_33_1747892058430",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:27:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T11:11:18.429Z",
+      "end": "2025-05-25T12:47:18.429Z"
+    },
+    "rate": 369,
+    "miles": 186.3144275881903,
+    "rpm": 1.98,
+    "equipmentType": "Reefer",
+    "weight": 33574,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_34_1747892058430",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T07:07:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T10:34:18.429Z",
+      "end": "2025-05-27T11:09:18.429Z"
+    },
+    "rate": 420,
+    "miles": 172.69128824895063,
+    "rpm": 2.43,
+    "equipmentType": "Reefer",
+    "weight": 20163,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_35_1747892058430",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:26:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T09:14:18.429Z",
+      "end": "2025-05-22T09:46:18.429Z"
+    },
+    "rate": 271,
+    "miles": 140.22712892914197,
+    "rpm": 1.93,
+    "equipmentType": "Reefer",
+    "weight": 23731,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_36_1747892058430",
+    "origin": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "destination": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:50:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T10:40:18.429Z",
+      "end": "2025-05-23T11:55:18.429Z"
+    },
+    "rate": 411,
+    "miles": 191.91563147703872,
+    "rpm": 2.14,
+    "equipmentType": "Flatbed",
+    "weight": 33687,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_37_1747892058430",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:06:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T12:24:18.429Z",
+      "end": "2025-05-29T14:03:18.429Z"
+    },
+    "rate": 528,
+    "miles": 265.36783057024695,
+    "rpm": 1.99,
+    "equipmentType": "Reefer",
+    "weight": 33805,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_38_1747892058430",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:18:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T09:42:18.429Z",
+      "end": "2025-05-29T11:02:18.429Z"
+    },
+    "rate": 246,
+    "miles": 119.90438704397744,
+    "rpm": 2.05,
+    "equipmentType": "Flatbed",
+    "weight": 30126,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_39_1747892058430",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T07:24:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T09:29:18.429Z",
+      "end": "2025-05-22T10:50:18.429Z"
+    },
+    "rate": 236,
+    "miles": 104.44452196495038,
+    "rpm": 2.26,
+    "equipmentType": "Flatbed",
+    "weight": 34550,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_40_1747892058430",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T13:26:18.429Z",
+      "end": "2025-05-29T14:41:18.429Z"
+    },
+    "rate": 472,
+    "miles": 312.5369315026949,
+    "rpm": 1.51,
+    "equipmentType": "Dry Van",
+    "weight": 24418,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_41_1747892058430",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:30:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T11:53:18.429Z",
+      "end": "2025-05-23T13:10:18.429Z"
+    },
+    "rate": 619,
+    "miles": 269.3100860749234,
+    "rpm": 2.3,
+    "equipmentType": "Reefer",
+    "weight": 36579,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_42_1747892058430",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T07:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T12:35:18.429Z",
+      "end": "2025-05-22T13:38:18.429Z"
+    },
+    "rate": 624,
+    "miles": 269.9339787404106,
+    "rpm": 2.31,
+    "equipmentType": "Reefer",
+    "weight": 39554,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_43_1747892058430",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:57:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T10:17:18.429Z",
+      "end": "2025-05-25T11:29:18.429Z"
+    },
+    "rate": 356,
+    "miles": 167.05694622818672,
+    "rpm": 2.13,
+    "equipmentType": "Reefer",
+    "weight": 22382,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_44_1747892058430",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:21:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T08:58:18.429Z",
+      "end": "2025-05-23T10:16:18.429Z"
+    },
+    "rate": 295,
+    "miles": 131.1214702917011,
+    "rpm": 2.25,
+    "equipmentType": "Reefer",
+    "weight": 32798,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_45_1747892058430",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:50:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T08:56:18.429Z",
+      "end": "2025-05-24T09:57:18.429Z"
+    },
+    "rate": 218,
+    "miles": 105.23589788984354,
+    "rpm": 2.07,
+    "equipmentType": "Reefer",
+    "weight": 27708,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_46_1747892058430",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T09:27:18.429Z",
+      "end": "2025-05-24T10:47:18.429Z"
+    },
+    "rate": 399,
+    "miles": 163.6704464855973,
+    "rpm": 2.44,
+    "equipmentType": "Flatbed",
+    "weight": 35882,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_47_1747892058430",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:55:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T09:22:18.429Z",
+      "end": "2025-05-24T11:05:18.429Z"
+    },
+    "rate": 272,
+    "miles": 122.34098870294406,
+    "rpm": 2.22,
+    "equipmentType": "Reefer",
+    "weight": 36062,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_48_1747892058430",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:15:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T07:46:18.429Z",
+      "end": "2025-05-26T09:28:18.429Z"
+    },
+    "rate": 141,
+    "miles": 75.43213248430803,
+    "rpm": 1.87,
+    "equipmentType": "Reefer",
+    "weight": 38546,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_49_1747892058430",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:22:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T13:11:18.429Z",
+      "end": "2025-05-25T13:53:18.429Z"
+    },
+    "rate": 613,
+    "miles": 290.6303851810522,
+    "rpm": 2.11,
+    "equipmentType": "Flatbed",
+    "weight": 27157,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_50_1747892058430",
+    "origin": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T07:28:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T11:20:18.429Z",
+      "end": "2025-05-24T12:58:18.429Z"
+    },
+    "rate": 364,
+    "miles": 193.57798221695884,
+    "rpm": 1.88,
+    "equipmentType": "Reefer",
+    "weight": 45494,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_51_1747892058430",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T07:32:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T09:31:18.429Z",
+      "end": "2025-05-22T11:03:18.429Z"
+    },
+    "rate": 268,
+    "miles": 99.14078539265317,
+    "rpm": 2.7,
+    "equipmentType": "Flatbed",
+    "weight": 25788,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_52_1747892058430",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:24:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T08:22:18.429Z",
+      "end": "2025-05-23T09:01:18.429Z"
+    },
+    "rate": 102,
+    "miles": 48.430712672190225,
+    "rpm": 2.11,
+    "equipmentType": "Reefer",
+    "weight": 38346,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_53_1747892058431",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T13:12:18.429Z",
+      "end": "2025-05-23T14:06:18.429Z"
+    },
+    "rate": 715,
+    "miles": 350.7126350452159,
+    "rpm": 2.04,
+    "equipmentType": "Reefer",
+    "weight": 26454,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_54_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:17:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T12:20:18.429Z",
+      "end": "2025-05-29T12:52:18.429Z"
+    },
+    "rate": 557,
+    "miles": 252.15818474361234,
+    "rpm": 2.21,
+    "equipmentType": "Flatbed",
+    "weight": 37510,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_55_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:28:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T12:51:18.429Z",
+      "end": "2025-05-29T14:17:18.429Z"
+    },
+    "rate": 522,
+    "miles": 269.3100860749234,
+    "rpm": 1.94,
+    "equipmentType": "Reefer",
+    "weight": 20824,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_56_1747892058431",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T07:07:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T11:16:18.429Z",
+      "end": "2025-05-24T11:46:18.429Z"
+    },
+    "rate": 454,
+    "miles": 207.29368237312474,
+    "rpm": 2.19,
+    "equipmentType": "Flatbed",
+    "weight": 24225,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_57_1747892058431",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:19:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T08:19:18.429Z",
+      "end": "2025-05-27T09:30:18.429Z"
+    },
+    "rate": 242,
+    "miles": 100.08647593927111,
+    "rpm": 2.42,
+    "equipmentType": "Flatbed",
+    "weight": 20621,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_58_1747892058431",
+    "origin": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:06:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T12:24:18.429Z",
+      "end": "2025-05-25T14:19:18.429Z"
+    },
+    "rate": 528,
+    "miles": 265.36783057024695,
+    "rpm": 1.99,
+    "equipmentType": "Dry Van",
+    "weight": 41129,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_59_1747892058431",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:13:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T10:05:18.429Z",
+      "end": "2025-05-29T11:31:18.429Z"
+    },
+    "rate": 364,
+    "miles": 193.57798221695884,
+    "rpm": 1.88,
+    "equipmentType": "Dry Van",
+    "weight": 45610,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_60_1747892058431",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:15:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T12:36:18.429Z",
+      "end": "2025-05-25T13:18:18.429Z"
+    },
+    "rate": 519,
+    "miles": 267.7626168931175,
+    "rpm": 1.94,
+    "equipmentType": "Reefer",
+    "weight": 31146,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_61_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:58:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T09:25:18.429Z",
+      "end": "2025-05-23T10:59:18.429Z"
+    },
+    "rate": 204,
+    "miles": 122.34098870294406,
+    "rpm": 1.67,
+    "equipmentType": "Dry Van",
+    "weight": 33303,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_62_1747892058431",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:54:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T10:41:18.429Z",
+      "end": "2025-05-26T12:31:18.429Z"
+    },
+    "rate": 485,
+    "miles": 189.26471738537208,
+    "rpm": 2.56,
+    "equipmentType": "Flatbed",
+    "weight": 39698,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_63_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:10:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T09:19:18.429Z",
+      "end": "2025-05-23T10:35:18.429Z"
+    },
+    "rate": 318,
+    "miles": 157.20458995361008,
+    "rpm": 2.02,
+    "equipmentType": "Reefer",
+    "weight": 31864,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_64_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T10:38:18.429Z",
+      "end": "2025-05-26T12:31:18.429Z"
+    },
+    "rate": 357,
+    "miles": 172.69128824895063,
+    "rpm": 2.07,
+    "equipmentType": "Reefer",
+    "weight": 22734,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_65_1747892058431",
+    "origin": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:16:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T09:53:18.429Z",
+      "end": "2025-05-29T11:39:18.429Z"
+    },
+    "rate": 303,
+    "miles": 130.54638241327908,
+    "rpm": 2.32,
+    "equipmentType": "Flatbed",
+    "weight": 38046,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_66_1747892058431",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:52:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T08:51:18.429Z",
+      "end": "2025-05-26T09:58:18.429Z"
+    },
+    "rate": 215,
+    "miles": 99.14078539265317,
+    "rpm": 2.17,
+    "equipmentType": "Reefer",
+    "weight": 25053,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_67_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:05:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T08:29:18.429Z",
+      "end": "2025-05-26T09:01:18.429Z"
+    },
+    "rate": 122,
+    "miles": 70.01372001217051,
+    "rpm": 1.74,
+    "equipmentType": "Dry Van",
+    "weight": 27219,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_68_1747892058431",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:40:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T10:30:18.429Z",
+      "end": "2025-05-24T11:25:18.429Z"
+    },
+    "rate": 296,
+    "miles": 191.91563147703872,
+    "rpm": 1.54,
+    "equipmentType": "Dry Van",
+    "weight": 25808,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_69_1747892058431",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T07:33:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T10:39:18.429Z",
+      "end": "2025-05-24T12:26:18.429Z"
+    },
+    "rate": 323,
+    "miles": 155.36267147453887,
+    "rpm": 2.08,
+    "equipmentType": "Reefer",
+    "weight": 46942,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_70_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:07:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T10:05:18.429Z",
+      "end": "2025-05-26T11:46:18.429Z"
+    },
+    "rate": 426,
+    "miles": 198.05607797879642,
+    "rpm": 2.15,
+    "equipmentType": "Dry Van",
+    "weight": 47001,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_71_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:34:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T09:01:18.429Z",
+      "end": "2025-05-29T09:37:18.429Z"
+    },
+    "rate": 311,
+    "miles": 122.34098870294406,
+    "rpm": 2.54,
+    "equipmentType": "Flatbed",
+    "weight": 30380,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_72_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:08:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T09:55:18.429Z",
+      "end": "2025-05-26T11:15:18.429Z"
+    },
+    "rate": 494,
+    "miles": 189.26471738537208,
+    "rpm": 2.61,
+    "equipmentType": "Flatbed",
+    "weight": 38818,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_73_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:22:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T08:20:18.429Z",
+      "end": "2025-05-26T09:41:18.429Z"
+    },
+    "rate": 91,
+    "miles": 48.430712672190225,
+    "rpm": 1.87,
+    "equipmentType": "Dry Van",
+    "weight": 36290,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_74_1747892058431",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:33:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T08:28:18.429Z",
+      "end": "2025-05-28T10:22:18.429Z"
+    },
+    "rate": 76,
+    "miles": 46.069123655200244,
+    "rpm": 1.65,
+    "equipmentType": "Dry Van",
+    "weight": 43992,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_75_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T06:44:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T08:02:18.429Z",
+      "end": "2025-05-28T09:39:18.429Z"
+    },
+    "rate": 128,
+    "miles": 64.78830253741503,
+    "rpm": 1.98,
+    "equipmentType": "Dry Van",
+    "weight": 44851,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_76_1747892058431",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:33:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T07:57:18.429Z",
+      "end": "2025-05-27T09:46:18.429Z"
+    },
+    "rate": 119,
+    "miles": 69.73962743364693,
+    "rpm": 1.7,
+    "equipmentType": "Dry Van",
+    "weight": 39388,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_77_1747892058431",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:26:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T10:21:18.429Z",
+      "end": "2025-05-26T11:00:18.429Z"
+    },
+    "rate": 490,
+    "miles": 196.18798495188815,
+    "rpm": 2.5,
+    "equipmentType": "Reefer",
+    "weight": 22148,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_78_1747892058431",
+    "origin": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:22:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T11:01:18.429Z",
+      "end": "2025-05-26T12:54:18.429Z"
+    },
+    "rate": 419,
+    "miles": 182.86952530521768,
+    "rpm": 2.29,
+    "equipmentType": "Flatbed",
+    "weight": 35029,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_79_1747892058431",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:01:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T09:11:18.429Z",
+      "end": "2025-05-28T11:01:18.429Z"
+    },
+    "rate": 170,
+    "miles": 108.04344068841904,
+    "rpm": 1.57,
+    "equipmentType": "Dry Van",
+    "weight": 32477,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_80_1747892058431",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:58:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T10:15:18.429Z",
+      "end": "2025-05-25T11:48:18.429Z"
+    },
+    "rate": 372,
+    "miles": 164.4002238949631,
+    "rpm": 2.26,
+    "equipmentType": "Reefer",
+    "weight": 28753,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_81_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:41:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T08:06:18.429Z",
+      "end": "2025-05-27T09:03:18.429Z"
+    },
+    "rate": 179,
+    "miles": 70.91779801546957,
+    "rpm": 2.53,
+    "equipmentType": "Flatbed",
+    "weight": 32375,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_82_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T06:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T08:38:18.429Z",
+      "end": "2025-05-28T09:10:18.429Z"
+    },
+    "rate": 268,
+    "miles": 122.34098870294406,
+    "rpm": 2.19,
+    "equipmentType": "Reefer",
+    "weight": 33530,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_83_1747892058431",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:35:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T08:00:18.429Z",
+      "end": "2025-05-23T09:28:18.429Z"
+    },
+    "rate": 140,
+    "miles": 70.91779801546957,
+    "rpm": 1.98,
+    "equipmentType": "Dry Van",
+    "weight": 35658,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_84_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T06:29:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T12:44:18.429Z",
+      "end": "2025-05-28T13:18:18.429Z"
+    },
+    "rate": 731,
+    "miles": 312.5369315026949,
+    "rpm": 2.34,
+    "equipmentType": "Reefer",
+    "weight": 34767,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_85_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:31:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T12:55:18.429Z",
+      "end": "2025-05-23T14:38:18.429Z"
+    },
+    "rate": 702,
+    "miles": 269.9339787404106,
+    "rpm": 2.6,
+    "equipmentType": "Flatbed",
+    "weight": 46598,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_86_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:30:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T07:48:18.429Z",
+      "end": "2025-05-25T09:42:18.429Z"
+    },
+    "rate": 123,
+    "miles": 64.78830253741503,
+    "rpm": 1.9,
+    "equipmentType": "Flatbed",
+    "weight": 29390,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_87_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:23:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T11:47:18.429Z",
+      "end": "2025-05-23T13:08:18.429Z"
+    },
+    "rate": 626,
+    "miles": 269.9339787404106,
+    "rpm": 2.32,
+    "equipmentType": "Reefer",
+    "weight": 37909,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_88_1747892058431",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T07:10:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T11:10:18.429Z",
+      "end": "2025-05-27T12:38:18.429Z"
+    },
+    "rate": 326,
+    "miles": 199.9822612839705,
+    "rpm": 1.63,
+    "equipmentType": "Dry Van",
+    "weight": 35792,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_89_1747892058431",
+    "origin": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:25:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T09:20:18.429Z",
+      "end": "2025-05-26T10:44:18.429Z"
+    },
+    "rate": 333,
+    "miles": 145.56474491152971,
+    "rpm": 2.29,
+    "equipmentType": "Flatbed",
+    "weight": 27486,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_90_1747892058431",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:12:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T10:04:18.429Z",
+      "end": "2025-05-26T11:19:18.429Z"
+    },
+    "rate": 364,
+    "miles": 193.57798221695884,
+    "rpm": 1.88,
+    "equipmentType": "Dry Van",
+    "weight": 30644,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_91_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:22:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T10:46:18.429Z",
+      "end": "2025-05-29T11:54:18.429Z"
+    },
+    "rate": 582,
+    "miles": 219.75883969699902,
+    "rpm": 2.65,
+    "equipmentType": "Flatbed",
+    "weight": 33632,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_92_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:19:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T12:42:18.429Z",
+      "end": "2025-05-29T14:11:18.429Z"
+    },
+    "rate": 625,
+    "miles": 269.3100860749234,
+    "rpm": 2.32,
+    "equipmentType": "Reefer",
+    "weight": 38689,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_93_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:41:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T10:08:18.429Z",
+      "end": "2025-05-23T11:17:18.429Z"
+    },
+    "rate": 423,
+    "miles": 172.69128824895063,
+    "rpm": 2.45,
+    "equipmentType": "Flatbed",
+    "weight": 23050,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_94_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:59:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T12:22:18.429Z",
+      "end": "2025-05-27T13:01:18.429Z"
+    },
+    "rate": 557,
+    "miles": 269.3100860749234,
+    "rpm": 2.07,
+    "equipmentType": "Flatbed",
+    "weight": 26179,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_95_1747892058431",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:13:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T11:28:18.429Z",
+      "end": "2025-05-23T12:45:18.429Z"
+    },
+    "rate": 540,
+    "miles": 212.66755428996666,
+    "rpm": 2.54,
+    "equipmentType": "Flatbed",
+    "weight": 35257,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_96_1747892058431",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:17:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T08:41:18.429Z",
+      "end": "2025-05-26T09:52:18.429Z"
+    },
+    "rate": 152,
+    "miles": 69.73962743364693,
+    "rpm": 2.18,
+    "equipmentType": "Dry Van",
+    "weight": 25237,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_97_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:56:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T10:05:18.429Z",
+      "end": "2025-05-27T11:54:18.429Z"
+    },
+    "rate": 362,
+    "miles": 157.20458995361008,
+    "rpm": 2.3,
+    "equipmentType": "Reefer",
+    "weight": 33399,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_98_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T07:28:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T10:53:18.429Z",
+      "end": "2025-05-22T11:44:18.429Z"
+    },
+    "rate": 390,
+    "miles": 170.8553089085974,
+    "rpm": 2.28,
+    "equipmentType": "Reefer",
+    "weight": 45040,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_99_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:07:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T09:11:18.429Z",
+      "end": "2025-05-29T10:02:18.429Z"
+    },
+    "rate": 192,
+    "miles": 103.6495414395159,
+    "rpm": 1.85,
+    "equipmentType": "Dry Van",
+    "weight": 34105,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_100_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:25:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T11:03:18.429Z",
+      "end": "2025-05-25T11:47:18.429Z"
+    },
+    "rate": 427,
+    "miles": 231.83013892742198,
+    "rpm": 1.84,
+    "equipmentType": "Reefer",
+    "weight": 33932,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_101_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:12:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T09:36:18.429Z",
+      "end": "2025-05-23T11:31:18.429Z"
+    },
+    "rate": 230,
+    "miles": 119.90438704397744,
+    "rpm": 1.92,
+    "equipmentType": "Flatbed",
+    "weight": 46717,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_102_1747892058431",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T10:17:18.429Z",
+      "end": "2025-05-28T11:46:18.429Z"
+    },
+    "rate": 337,
+    "miles": 155.36267147453887,
+    "rpm": 2.17,
+    "equipmentType": "Reefer",
+    "weight": 20483,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_103_1747892058431",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:02:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T10:57:18.429Z",
+      "end": "2025-05-25T12:45:18.429Z"
+    },
+    "rate": 375,
+    "miles": 196.18798495188815,
+    "rpm": 1.91,
+    "equipmentType": "Reefer",
+    "weight": 45700,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_104_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T06:17:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T09:01:18.429Z",
+      "end": "2025-05-28T09:35:18.429Z"
+    },
+    "rate": 280,
+    "miles": 136.40858583236385,
+    "rpm": 2.05,
+    "equipmentType": "Dry Van",
+    "weight": 44447,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_105_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:10:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T08:15:18.429Z",
+      "end": "2025-05-22T09:36:18.429Z"
+    },
+    "rate": 258,
+    "miles": 103.96439852239926,
+    "rpm": 2.48,
+    "equipmentType": "Reefer",
+    "weight": 26117,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_106_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:25:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T09:49:18.429Z",
+      "end": "2025-05-25T11:46:18.429Z"
+    },
+    "rate": 217,
+    "miles": 119.90438704397744,
+    "rpm": 1.81,
+    "equipmentType": "Dry Van",
+    "weight": 20624,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_107_1747892058431",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:13:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T10:13:18.429Z",
+      "end": "2025-05-23T10:45:18.429Z"
+    },
+    "rate": 368,
+    "miles": 199.9822612839705,
+    "rpm": 1.84,
+    "equipmentType": "Dry Van",
+    "weight": 37885,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_108_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:48:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T09:15:18.429Z",
+      "end": "2025-05-27T10:37:18.429Z"
+    },
+    "rate": 217,
+    "miles": 122.34098870294406,
+    "rpm": 1.77,
+    "equipmentType": "Dry Van",
+    "weight": 29795,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_109_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:09:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T11:33:18.429Z",
+      "end": "2025-05-28T12:28:18.429Z"
+    },
+    "rate": 563,
+    "miles": 219.75883969699902,
+    "rpm": 2.56,
+    "equipmentType": "Flatbed",
+    "weight": 41568,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_110_1747892058431",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:19:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T09:18:18.429Z",
+      "end": "2025-05-22T11:04:18.429Z"
+    },
+    "rate": 296,
+    "miles": 148.87152939010318,
+    "rpm": 1.99,
+    "equipmentType": "Reefer",
+    "weight": 28429,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_111_1747892058431",
+    "origin": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:58:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T13:31:18.429Z",
+      "end": "2025-05-22T14:13:18.429Z"
+    },
+    "rate": 845,
+    "miles": 327.60772783536686,
+    "rpm": 2.58,
+    "equipmentType": "Flatbed",
+    "weight": 46599,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_112_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:34:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T10:50:18.429Z",
+      "end": "2025-05-29T11:26:18.429Z"
+    },
+    "rate": 344,
+    "miles": 163.6704464855973,
+    "rpm": 2.1,
+    "equipmentType": "Flatbed",
+    "weight": 31926,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_113_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:29:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T10:44:18.429Z",
+      "end": "2025-05-22T12:37:18.429Z"
+    },
+    "rate": 402,
+    "miles": 212.66755428996666,
+    "rpm": 1.89,
+    "equipmentType": "Dry Van",
+    "weight": 37406,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_114_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:57:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T11:42:18.429Z",
+      "end": "2025-05-25T13:04:18.429Z"
+    },
+    "rate": 443,
+    "miles": 237.11216857060208,
+    "rpm": 1.87,
+    "equipmentType": "Reefer",
+    "weight": 25835,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_115_1747892058431",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:28:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T11:13:18.429Z",
+      "end": "2025-05-23T13:07:18.429Z"
+    },
+    "rate": 621,
+    "miles": 237.11216857060208,
+    "rpm": 2.62,
+    "equipmentType": "Flatbed",
+    "weight": 44840,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_116_1747892058431",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:23:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T11:54:18.429Z",
+      "end": "2025-05-27T13:04:18.429Z"
+    },
+    "rate": 733,
+    "miles": 275.62524887767427,
+    "rpm": 2.66,
+    "equipmentType": "Flatbed",
+    "weight": 25261,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_117_1747892058431",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:48:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T07:43:18.429Z",
+      "end": "2025-05-22T08:53:18.429Z"
+    },
+    "rate": 110,
+    "miles": 46.069123655200244,
+    "rpm": 2.38,
+    "equipmentType": "Reefer",
+    "weight": 38819,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_118_1747892058431",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:27:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T08:55:18.429Z",
+      "end": "2025-05-26T09:32:18.429Z"
+    },
+    "rate": 161,
+    "miles": 73.41384437919643,
+    "rpm": 2.19,
+    "equipmentType": "Flatbed",
+    "weight": 24160,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_119_1747892058431",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:39:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T08:45:18.429Z",
+      "end": "2025-05-27T10:39:18.429Z"
+    },
+    "rate": 208,
+    "miles": 105.23589788984354,
+    "rpm": 1.98,
+    "equipmentType": "Reefer",
+    "weight": 27196,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_120_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:13:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T12:28:18.429Z",
+      "end": "2025-05-22T13:27:18.429Z"
+    },
+    "rate": 750,
+    "miles": 312.5369315026949,
+    "rpm": 2.4,
+    "equipmentType": "Flatbed",
+    "weight": 32572,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_121_1747892058431",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:37:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T08:47:18.429Z",
+      "end": "2025-05-22T10:00:18.429Z"
+    },
+    "rate": 252,
+    "miles": 108.04344068841904,
+    "rpm": 2.33,
+    "equipmentType": "Flatbed",
+    "weight": 23916,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_122_1747892058431",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T07:10:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T08:38:18.429Z",
+      "end": "2025-05-27T09:47:18.429Z"
+    },
+    "rate": 167,
+    "miles": 73.41384437919643,
+    "rpm": 2.28,
+    "equipmentType": "Reefer",
+    "weight": 25807,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_123_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:15:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T08:02:18.429Z",
+      "end": "2025-05-25T08:34:18.429Z"
+    },
+    "rate": 212,
+    "miles": 89.29064041671509,
+    "rpm": 2.37,
+    "equipmentType": "Reefer",
+    "weight": 45671,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_124_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:03:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T09:08:18.429Z",
+      "end": "2025-05-26T10:33:18.429Z"
+    },
+    "rate": 259,
+    "miles": 103.96439852239926,
+    "rpm": 2.49,
+    "equipmentType": "Flatbed",
+    "weight": 39179,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_125_1747892058431",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T06:05:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T08:42:18.429Z",
+      "end": "2025-05-28T09:13:18.429Z"
+    },
+    "rate": 290,
+    "miles": 131.1214702917011,
+    "rpm": 2.21,
+    "equipmentType": "Reefer",
+    "weight": 25500,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_126_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:07:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T12:25:18.429Z",
+      "end": "2025-05-28T14:06:18.429Z"
+    },
+    "rate": 654,
+    "miles": 264.86719484996576,
+    "rpm": 2.47,
+    "equipmentType": "Flatbed",
+    "weight": 22374,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_127_1747892058431",
+    "origin": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:33:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T11:25:18.429Z",
+      "end": "2025-05-23T12:10:18.429Z"
+    },
+    "rate": 317,
+    "miles": 193.57798221695884,
+    "rpm": 1.64,
+    "equipmentType": "Dry Van",
+    "weight": 24358,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_128_1747892058431",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T06:35:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T13:08:18.429Z",
+      "end": "2025-05-28T14:35:18.429Z"
+    },
+    "rate": 803,
+    "miles": 327.60772783536686,
+    "rpm": 2.45,
+    "equipmentType": "Flatbed",
+    "weight": 41406,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_129_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:28:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T08:32:18.429Z",
+      "end": "2025-05-25T09:03:18.429Z"
+    },
+    "rate": 243,
+    "miles": 103.6495414395159,
+    "rpm": 2.34,
+    "equipmentType": "Reefer",
+    "weight": 38886,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_130_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:17:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T11:58:18.429Z",
+      "end": "2025-05-26T13:21:18.429Z"
+    },
+    "rate": 480,
+    "miles": 233.91933040831125,
+    "rpm": 2.05,
+    "equipmentType": "Dry Van",
+    "weight": 33750,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_131_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:14:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T10:30:18.429Z",
+      "end": "2025-05-25T11:03:18.429Z"
+    },
+    "rate": 390,
+    "miles": 163.6704464855973,
+    "rpm": 2.38,
+    "equipmentType": "Reefer",
+    "weight": 35209,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_132_1747892058431",
+    "origin": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:41:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T11:01:18.429Z",
+      "end": "2025-05-29T11:33:18.429Z"
+    },
+    "rate": 434,
+    "miles": 216.78013596314355,
+    "rpm": 2,
+    "equipmentType": "Dry Van",
+    "weight": 28646,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_133_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:19:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T09:28:18.429Z",
+      "end": "2025-05-25T11:12:18.429Z"
+    },
+    "rate": 292,
+    "miles": 157.20458995361008,
+    "rpm": 1.86,
+    "equipmentType": "Dry Van",
+    "weight": 23222,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_134_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:19:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T09:20:18.429Z",
+      "end": "2025-05-27T11:11:18.429Z"
+    },
+    "rate": 328,
+    "miles": 151.186881187571,
+    "rpm": 2.17,
+    "equipmentType": "Dry Van",
+    "weight": 34197,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_135_1747892058431",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:39:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T09:38:18.429Z",
+      "end": "2025-05-23T10:55:18.429Z"
+    },
+    "rate": 287,
+    "miles": 148.87152939010318,
+    "rpm": 1.93,
+    "equipmentType": "Reefer",
+    "weight": 33641,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_136_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:21:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T08:46:18.429Z",
+      "end": "2025-05-28T09:42:18.429Z"
+    },
+    "rate": 167,
+    "miles": 70.91779801546957,
+    "rpm": 2.35,
+    "equipmentType": "Reefer",
+    "weight": 25766,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_137_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:08:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T11:09:18.429Z",
+      "end": "2025-05-27T12:04:18.429Z"
+    },
+    "rate": 619,
+    "miles": 250.77546509539283,
+    "rpm": 2.47,
+    "equipmentType": "Reefer",
+    "weight": 41868,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_138_1747892058431",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:45:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T07:43:18.429Z",
+      "end": "2025-05-29T09:29:18.429Z"
+    },
+    "rate": 98,
+    "miles": 48.430712672190225,
+    "rpm": 2.03,
+    "equipmentType": "Flatbed",
+    "weight": 38296,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_139_1747892058431",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:25:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T10:43:18.429Z",
+      "end": "2025-05-28T12:14:18.429Z"
+    },
+    "rate": 368,
+    "miles": 164.82428652787593,
+    "rpm": 2.23,
+    "equipmentType": "Reefer",
+    "weight": 31825,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_140_1747892058431",
+    "origin": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:57:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T10:41:18.429Z",
+      "end": "2025-05-25T11:22:18.429Z"
+    },
+    "rate": 397,
+    "miles": 186.3144275881903,
+    "rpm": 2.13,
+    "equipmentType": "Dry Van",
+    "weight": 24933,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_141_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T06:31:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T10:26:18.429Z",
+      "end": "2025-05-28T12:21:18.429Z"
+    },
+    "rate": 443,
+    "miles": 196.18798495188815,
+    "rpm": 2.26,
+    "equipmentType": "Reefer",
+    "weight": 30803,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_142_1747892058431",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:44:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T08:08:18.429Z",
+      "end": "2025-05-26T10:02:18.429Z"
+    },
+    "rate": 123,
+    "miles": 70.01372001217051,
+    "rpm": 1.75,
+    "equipmentType": "Dry Van",
+    "weight": 47982,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_143_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:12:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T08:36:18.429Z",
+      "end": "2025-05-26T09:37:18.429Z"
+    },
+    "rate": 149,
+    "miles": 69.73962743364693,
+    "rpm": 2.13,
+    "equipmentType": "Dry Van",
+    "weight": 43771,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_144_1747892058431",
+    "origin": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:09:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T09:53:18.429Z",
+      "end": "2025-05-26T10:49:18.429Z"
+    },
+    "rate": 382,
+    "miles": 186.3144275881903,
+    "rpm": 2.05,
+    "equipmentType": "Reefer",
+    "weight": 32507,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_145_1747892058431",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:35:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T09:53:18.429Z",
+      "end": "2025-05-24T11:49:18.429Z"
+    },
+    "rate": 249,
+    "miles": 164.82428652787593,
+    "rpm": 1.51,
+    "equipmentType": "Dry Van",
+    "weight": 26384,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_146_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:29:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T07:56:18.429Z",
+      "end": "2025-05-24T09:41:18.429Z"
+    },
+    "rate": 175,
+    "miles": 72.34698150296553,
+    "rpm": 2.42,
+    "equipmentType": "Flatbed",
+    "weight": 31313,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_147_1747892058431",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:43:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T08:30:18.429Z",
+      "end": "2025-05-27T09:04:18.429Z"
+    },
+    "rate": 142,
+    "miles": 89.29064041671509,
+    "rpm": 1.59,
+    "equipmentType": "Dry Van",
+    "weight": 31368,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_148_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:59:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T08:23:18.429Z",
+      "end": "2025-05-22T10:21:18.429Z"
+    },
+    "rate": 127,
+    "miles": 69.73962743364693,
+    "rpm": 1.82,
+    "equipmentType": "Dry Van",
+    "weight": 24287,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_149_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:57:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T12:15:18.429Z",
+      "end": "2025-05-23T13:19:18.429Z"
+    },
+    "rate": 456,
+    "miles": 264.86719484996576,
+    "rpm": 1.72,
+    "equipmentType": "Dry Van",
+    "weight": 22656,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_150_1747892058431",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:29:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T12:15:18.429Z",
+      "end": "2025-05-29T13:38:18.429Z"
+    },
+    "rate": 528,
+    "miles": 237.9953466570511,
+    "rpm": 2.22,
+    "equipmentType": "Flatbed",
+    "weight": 29811,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_151_1747892058431",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:21:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T09:20:18.429Z",
+      "end": "2025-05-23T10:58:18.429Z"
+    },
+    "rate": 198,
+    "miles": 99.14078539265317,
+    "rpm": 2,
+    "equipmentType": "Reefer",
+    "weight": 35612,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_152_1747892058431",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:10:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T10:27:18.429Z",
+      "end": "2025-05-26T11:07:18.429Z"
+    },
+    "rate": 329,
+    "miles": 164.4002238949631,
+    "rpm": 2,
+    "equipmentType": "Flatbed",
+    "weight": 47581,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_153_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:14:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T08:19:18.429Z",
+      "end": "2025-05-22T09:29:18.429Z"
+    },
+    "rate": 272,
+    "miles": 103.96439852239926,
+    "rpm": 2.62,
+    "equipmentType": "Flatbed",
+    "weight": 40177,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_154_1747892058431",
+    "origin": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:34:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T12:12:18.429Z",
+      "end": "2025-05-26T13:40:18.429Z"
+    },
+    "rate": 526,
+    "miles": 281.42881923746125,
+    "rpm": 1.87,
+    "equipmentType": "Dry Van",
+    "weight": 25290,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_155_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:33:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T11:34:18.429Z",
+      "end": "2025-05-26T12:26:18.429Z"
+    },
+    "rate": 652,
+    "miles": 250.77546509539283,
+    "rpm": 2.6,
+    "equipmentType": "Flatbed",
+    "weight": 37714,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_156_1747892058431",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:53:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T09:54:18.429Z",
+      "end": "2025-05-29T11:32:18.429Z"
+    },
+    "rate": 340,
+    "miles": 151.186881187571,
+    "rpm": 2.25,
+    "equipmentType": "Flatbed",
+    "weight": 34581,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_157_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:19:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T08:23:18.429Z",
+      "end": "2025-05-24T10:08:18.429Z"
+    },
+    "rate": 164,
+    "miles": 103.6495414395159,
+    "rpm": 1.58,
+    "equipmentType": "Dry Van",
+    "weight": 37588,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_158_1747892058431",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T07:20:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T11:15:18.429Z",
+      "end": "2025-05-27T13:04:18.429Z"
+    },
+    "rate": 418,
+    "miles": 196.18798495188815,
+    "rpm": 2.13,
+    "equipmentType": "Dry Van",
+    "weight": 26226,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_159_1747892058431",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T06:29:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T09:10:18.429Z",
+      "end": "2025-05-28T10:51:18.429Z"
+    },
+    "rate": 280,
+    "miles": 134.03684472283047,
+    "rpm": 2.09,
+    "equipmentType": "Reefer",
+    "weight": 30556,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_160_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:18:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T10:05:18.429Z",
+      "end": "2025-05-27T11:57:18.429Z"
+    },
+    "rate": 409,
+    "miles": 189.26471738537208,
+    "rpm": 2.16,
+    "equipmentType": "Dry Van",
+    "weight": 20607,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_161_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T06:20:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T08:47:18.429Z",
+      "end": "2025-05-27T10:44:18.429Z"
+    },
+    "rate": 296,
+    "miles": 122.34098870294406,
+    "rpm": 2.42,
+    "equipmentType": "Reefer",
+    "weight": 36319,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_162_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:20:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T08:57:18.429Z",
+      "end": "2025-05-25T10:04:18.429Z"
+    },
+    "rate": 265,
+    "miles": 130.54638241327908,
+    "rpm": 2.03,
+    "equipmentType": "Flatbed",
+    "weight": 34898,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_163_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T07:25:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T10:43:18.429Z",
+      "end": "2025-05-25T12:16:18.429Z"
+    },
+    "rate": 344,
+    "miles": 164.82428652787593,
+    "rpm": 2.09,
+    "equipmentType": "Reefer",
+    "weight": 41036,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_164_1747892058431",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:05:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T09:30:18.429Z",
+      "end": "2025-05-22T10:17:18.429Z"
+    },
+    "rate": 355,
+    "miles": 170.8553089085974,
+    "rpm": 2.08,
+    "equipmentType": "Dry Van",
+    "weight": 34790,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_165_1747892058431",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:33:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T10:28:18.429Z",
+      "end": "2025-05-22T12:12:18.429Z"
+    },
+    "rate": 392,
+    "miles": 195.76747650827235,
+    "rpm": 2,
+    "equipmentType": "Dry Van",
+    "weight": 37393,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_166_1747892058431",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:43:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T10:22:18.429Z",
+      "end": "2025-05-25T11:14:18.429Z"
+    },
+    "rate": 340,
+    "miles": 182.86952530521768,
+    "rpm": 1.86,
+    "equipmentType": "Dry Van",
+    "weight": 28208,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_167_1747892058431",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:37:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T09:15:18.429Z",
+      "end": "2025-05-26T10:49:18.429Z"
+    },
+    "rate": 230,
+    "miles": 131.92317184355807,
+    "rpm": 1.74,
+    "equipmentType": "Dry Van",
+    "weight": 28314,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_168_1747892058431",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:31:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T08:39:18.429Z",
+      "end": "2025-05-24T10:11:18.429Z"
+    },
+    "rate": 252,
+    "miles": 106.90043599259367,
+    "rpm": 2.36,
+    "equipmentType": "Flatbed",
+    "weight": 36628,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_169_1747892058431",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:20:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T07:18:18.429Z",
+      "end": "2025-05-23T08:21:18.429Z"
+    },
+    "rate": 103,
+    "miles": 48.430712672190225,
+    "rpm": 2.12,
+    "equipmentType": "Dry Van",
+    "weight": 22454,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_170_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:06:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T08:53:18.429Z",
+      "end": "2025-05-28T09:49:18.429Z"
+    },
+    "rate": 181,
+    "miles": 89.29064041671509,
+    "rpm": 2.03,
+    "equipmentType": "Flatbed",
+    "weight": 21106,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_171_1747892058431",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:48:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T10:04:18.429Z",
+      "end": "2025-05-25T10:48:18.429Z"
+    },
+    "rate": 362,
+    "miles": 163.6704464855973,
+    "rpm": 2.21,
+    "equipmentType": "Flatbed",
+    "weight": 40178,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_172_1747892058431",
+    "origin": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T07:27:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T12:45:18.429Z",
+      "end": "2025-05-24T13:15:18.429Z"
+    },
+    "rate": 563,
+    "miles": 265.36783057024695,
+    "rpm": 2.12,
+    "equipmentType": "Dry Van",
+    "weight": 22034,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_173_1747892058431",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:51:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T08:16:18.429Z",
+      "end": "2025-05-24T10:11:18.429Z"
+    },
+    "rate": 187,
+    "miles": 70.91779801546957,
+    "rpm": 2.64,
+    "equipmentType": "Flatbed",
+    "weight": 30187,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_174_1747892058431",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T09:17:18.429Z",
+      "end": "2025-05-22T10:48:18.429Z"
+    },
+    "rate": 413,
+    "miles": 155.36267147453887,
+    "rpm": 2.66,
+    "equipmentType": "Flatbed",
+    "weight": 29230,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_175_1747892058431",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:03:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T11:41:18.429Z",
+      "end": "2025-05-29T13:13:18.429Z"
+    },
+    "rate": 403,
+    "miles": 231.83013892742198,
+    "rpm": 1.74,
+    "equipmentType": "Dry Van",
+    "weight": 43145,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_176_1747892058431",
+    "origin": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:15:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T11:39:18.429Z",
+      "end": "2025-05-26T12:52:18.429Z"
+    },
+    "rate": 352,
+    "miles": 219.75883969699902,
+    "rpm": 1.6,
+    "equipmentType": "Dry Van",
+    "weight": 20775,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_177_1747892058431",
+    "origin": {
+      "city": "South Bend",
+      "state": "IN",
+      "lat": 41.6764,
+      "lng": -86.252,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:19:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T09:48:18.429Z",
+      "end": "2025-05-23T11:10:18.429Z"
+    },
+    "rate": 333,
+    "miles": 174.10122521525042,
+    "rpm": 1.91,
+    "equipmentType": "Reefer",
+    "weight": 27573,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_178_1747892058431",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T06:49:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T08:20:18.429Z",
+      "end": "2025-05-28T09:44:18.429Z"
+    },
+    "rate": 149,
+    "miles": 75.43213248430803,
+    "rpm": 1.97,
+    "equipmentType": "Reefer",
+    "weight": 41403,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_179_1747892058432",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:40:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T09:07:18.429Z",
+      "end": "2025-05-23T10:32:18.429Z"
+    },
+    "rate": 242,
+    "miles": 122.34098870294406,
+    "rpm": 1.98,
+    "equipmentType": "Dry Van",
+    "weight": 44766,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_180_1747892058432",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:11:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T07:39:18.429Z",
+      "end": "2025-05-22T08:39:18.429Z"
+    },
+    "rate": 153,
+    "miles": 73.41384437919643,
+    "rpm": 2.08,
+    "equipmentType": "Dry Van",
+    "weight": 45299,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_181_1747892058432",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "pickupWindow": {
+      "start": "2025-05-27T05:34:18.429Z",
+      "end": "2025-05-27T07:00:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-27T11:38:18.429Z",
+      "end": "2025-05-27T12:42:18.429Z"
+    },
+    "rate": 529,
+    "miles": 231.83013892742198,
+    "rpm": 2.28,
+    "equipmentType": "Flatbed",
+    "weight": 34693,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_182_1747892058432",
+    "origin": {
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.1031,
+      "lng": -84.512,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:25:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T08:23:18.429Z",
+      "end": "2025-05-29T09:25:18.429Z"
+    },
+    "rate": 104,
+    "miles": 48.430712672190225,
+    "rpm": 2.15,
+    "equipmentType": "Reefer",
+    "weight": 24927,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_183_1747892058432",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T07:13:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T10:19:18.429Z",
+      "end": "2025-05-24T12:07:18.429Z"
+    },
+    "rate": 354,
+    "miles": 155.36267147453887,
+    "rpm": 2.28,
+    "equipmentType": "Reefer",
+    "weight": 46464,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_184_1747892058432",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T06:25:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T07:43:18.429Z",
+      "end": "2025-05-26T09:35:18.429Z"
+    },
+    "rate": 152,
+    "miles": 64.78830253741503,
+    "rpm": 2.34,
+    "equipmentType": "Reefer",
+    "weight": 30371,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_185_1747892058432",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T07:27:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T11:19:18.429Z",
+      "end": "2025-05-22T12:34:18.429Z"
+    },
+    "rate": 509,
+    "miles": 193.57798221695884,
+    "rpm": 2.63,
+    "equipmentType": "Flatbed",
+    "weight": 41628,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_186_1747892058432",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "pickupWindow": {
+      "start": "2025-05-25T05:34:18.429Z",
+      "end": "2025-05-25T06:20:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-25T09:42:18.429Z",
+      "end": "2025-05-25T10:57:18.429Z"
+    },
+    "rate": 264,
+    "miles": 168.06948009640345,
+    "rpm": 1.57,
+    "equipmentType": "Dry Van",
+    "weight": 42988,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_187_1747892058432",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T07:28:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T08:52:18.429Z",
+      "end": "2025-05-29T10:19:18.429Z"
+    },
+    "rate": 177,
+    "miles": 70.01372001217051,
+    "rpm": 2.53,
+    "equipmentType": "Flatbed",
+    "weight": 34645,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_188_1747892058432",
+    "origin": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T07:13:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T09:14:18.429Z",
+      "end": "2025-05-24T11:13:18.429Z"
+    },
+    "rate": 253,
+    "miles": 100.43336527832467,
+    "rpm": 2.52,
+    "equipmentType": "Flatbed",
+    "weight": 39708,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_189_1747892058432",
+    "origin": {
+      "city": "Bloomington",
+      "state": "IN",
+      "lat": 39.1653,
+      "lng": -86.5264,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:38:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T09:39:18.429Z",
+      "end": "2025-05-22T11:06:18.429Z"
+    },
+    "rate": 404,
+    "miles": 151.186881187571,
+    "rpm": 2.67,
+    "equipmentType": "Flatbed",
+    "weight": 45860,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_190_1747892058432",
+    "origin": {
+      "city": "Columbus",
+      "state": "OH",
+      "lat": 39.9612,
+      "lng": -82.9988,
+      "timezone": "America/New_York",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:28:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T09:34:18.429Z",
+      "end": "2025-05-24T10:08:18.429Z"
+    },
+    "rate": 362,
+    "miles": 155.36267147453887,
+    "rpm": 2.33,
+    "equipmentType": "Reefer",
+    "weight": 35571,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_191_1747892058432",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-29T05:34:18.429Z",
+      "end": "2025-05-29T06:25:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-29T09:52:18.429Z",
+      "end": "2025-05-29T10:47:18.429Z"
+    },
+    "rate": 356,
+    "miles": 172.69128824895063,
+    "rpm": 2.06,
+    "equipmentType": "Flatbed",
+    "weight": 33286,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_192_1747892058432",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:27:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T11:45:18.429Z",
+      "end": "2025-05-24T13:24:18.429Z"
+    },
+    "rate": 593,
+    "miles": 264.86719484996576,
+    "rpm": 2.24,
+    "equipmentType": "Reefer",
+    "weight": 21655,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_193_1747892058432",
+    "origin": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:17:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T10:44:18.429Z",
+      "end": "2025-05-23T11:19:18.429Z"
+    },
+    "rate": 306,
+    "miles": 172.69128824895063,
+    "rpm": 1.77,
+    "equipmentType": "Dry Van",
+    "weight": 45129,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_194_1747892058432",
+    "origin": {
+      "city": "Terre Haute",
+      "state": "IN",
+      "lat": 39.4667,
+      "lng": -87.4139,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "destination": {
+      "city": "Peoria",
+      "state": "IL",
+      "lat": 40.6936,
+      "lng": -89.5889,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 90
+    },
+    "pickupWindow": {
+      "start": "2025-05-26T05:34:18.429Z",
+      "end": "2025-05-26T07:20:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-26T10:11:18.429Z",
+      "end": "2025-05-26T10:56:18.429Z"
+    },
+    "rate": 371,
+    "miles": 142.84844581141238,
+    "rpm": 2.6,
+    "equipmentType": "Flatbed",
+    "weight": 41749,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_195_1747892058432",
+    "origin": {
+      "city": "Chicago",
+      "state": "IL",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "timezone": "America/Chicago",
+      "freightDensity": "High",
+      "maxDeadhead": 25
+    },
+    "destination": {
+      "city": "Dayton",
+      "state": "OH",
+      "lat": 39.7589,
+      "lng": -84.1916,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-24T05:34:18.429Z",
+      "end": "2025-05-24T06:18:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-24T10:56:18.429Z",
+      "end": "2025-05-24T11:55:18.429Z"
+    },
+    "rate": 408,
+    "miles": 231.83013892742198,
+    "rpm": 1.76,
+    "equipmentType": "Dry Van",
+    "weight": 45871,
+    "brokerId": "xyztransport_id",
+    "source": "test",
+    "company": "XYZ Transport"
+  },
+  {
+    "id": "load_196_1747892058432",
+    "origin": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T06:44:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T08:08:18.429Z",
+      "end": "2025-05-23T09:51:18.429Z"
+    },
+    "rate": 177,
+    "miles": 69.73962743364693,
+    "rpm": 2.54,
+    "equipmentType": "Flatbed",
+    "weight": 26287,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_197_1747892058432",
+    "origin": {
+      "city": "Indianapolis",
+      "state": "IN",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "High",
+      "maxDeadhead": 30
+    },
+    "destination": {
+      "city": "Louisville",
+      "state": "KY",
+      "lat": 38.2527,
+      "lng": -85.7585,
+      "timezone": "America/Kentucky/Louisville",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "pickupWindow": {
+      "start": "2025-05-28T05:34:18.429Z",
+      "end": "2025-05-28T07:25:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-28T09:33:18.429Z",
+      "end": "2025-05-28T10:15:18.429Z"
+    },
+    "rate": 270,
+    "miles": 106.90043599259367,
+    "rpm": 2.53,
+    "equipmentType": "Flatbed",
+    "weight": 46159,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  },
+  {
+    "id": "load_198_1747892058432",
+    "origin": {
+      "city": "Lexington",
+      "state": "KY",
+      "lat": 38.0406,
+      "lng": -84.5037,
+      "timezone": "America/New_York",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-23T05:34:18.429Z",
+      "end": "2025-05-23T07:20:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-23T10:40:18.429Z",
+      "end": "2025-05-23T12:26:18.429Z"
+    },
+    "rate": 413,
+    "miles": 167.05694622818672,
+    "rpm": 2.47,
+    "equipmentType": "Reefer",
+    "weight": 33062,
+    "brokerId": "abcfreight_id",
+    "source": "test",
+    "company": "ABC Freight"
+  },
+  {
+    "id": "load_199_1747892058432",
+    "origin": {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "lat": 41.0793,
+      "lng": -85.1394,
+      "timezone": "America/Indiana/Indianapolis",
+      "freightDensity": "Medium",
+      "maxDeadhead": 50
+    },
+    "destination": {
+      "city": "Evansville",
+      "state": "IN",
+      "lat": 37.9716,
+      "lng": -87.5711,
+      "timezone": "America/Chicago",
+      "freightDensity": "Low",
+      "maxDeadhead": 75
+    },
+    "pickupWindow": {
+      "start": "2025-05-22T05:34:18.429Z",
+      "end": "2025-05-22T06:24:18.429Z"
+    },
+    "deliveryWindow": {
+      "start": "2025-05-22T11:25:18.429Z",
+      "end": "2025-05-22T12:02:18.429Z"
+    },
+    "rate": 609,
+    "miles": 250.77546509539283,
+    "rpm": 2.43,
+    "equipmentType": "Reefer",
+    "weight": 24298,
+    "brokerId": "circlelogisticsinc_id",
+    "source": "test",
+    "company": "Circle Logistics Inc"
+  }
+]

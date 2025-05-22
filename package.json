@@ -2,13 +2,17 @@
   "name": "box-truck",
   "version": "1.0.0",
   "description": "SaaS platform for box truck dispatch optimization",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "script": "ts-node-esm",
+    "generate": "npm run script src/lib/scripts/generateLoads.ts",
+    "test-loads": "npm run script src/lib/scripts/testLoads.ts"
   },
   "repository": {
     "type": "git",
@@ -29,11 +33,13 @@
   },
   "homepage": "https://github.com/darshangupta/box-truck#readme",
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
     "@trpc/server": "^10.0.0",
     "date-fns": "^4.1.0",
     "next": "^14.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-force-graph-2d": "^1.27.1",
     "zod": "^3.22.2"
   },
   "devDependencies": {

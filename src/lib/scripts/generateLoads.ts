@@ -1,80 +1,58 @@
 import { addDays, addMinutes } from 'date-fns';
+import * as fs from 'fs';
+import * as path from 'path';
+import { fileURLToPath } from 'url';
+import { cityMetadata, equipmentTypes, companies } from '../loads/constants.js';
+import { randomChoice, randomFloat, calculateDistance } from '../loads/utils.js';
+import type { Load } from '../loads/types.js';
 
-// Example city data (expand as needed)
-const cities = [
-  { id: 'indy', city: 'Indianapolis', state: 'IN', lat: 39.7684, lng: -86.1581, timezone: 'America/Indiana/Indianapolis' },
-  { id: 'decatur', city: 'Decatur', state: 'IN', lat: 40.8306, lng: -84.9294, timezone: 'America/Indiana/Indianapolis' },
-  { id: 'jeffersonville', city: 'Jeffersonville', state: 'IN', lat: 38.2776, lng: -85.7372, timezone: 'America/Indiana/Indianapolis' },
-  { id: 'plainfield', city: 'Plainfield', state: 'IN', lat: 39.7042, lng: -86.3994, timezone: 'America/Indiana/Indianapolis' },
-  { id: 'winchester', city: 'Winchester', state: 'IN', lat: 40.1712, lng: -84.9816, timezone: 'America/Indiana/Indianapolis' },
-  { id: 'cincinnati', city: 'Cincinnati', state: 'OH', lat: 39.1031, lng: -84.5120, timezone: 'America/New_York' },
-  { id: 'monee', city: 'Monee', state: 'IL', lat: 41.4200, lng: -87.7414, timezone: 'America/Chicago' },
-  { id: 'lebanon', city: 'Lebanon', state: 'IN', lat: 40.0484, lng: -86.4697, timezone: 'America/Indiana/Indianapolis' },
-  // Add more as needed
-];
-
-const equipmentTypes = ['Dry Van', 'Reefer', 'Flatbed'];
-const companies = ['Circle Logistics Inc', 'ABC Freight', 'XYZ Transport'];
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 function randomInt(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function randomChoice<T>(arr: T[]): T {
-  return arr[randomInt(0, arr.length - 1)];
-}
-
-export interface Location {
-  id: string;
-  city: string;
-  state: string;
-  lat: number;
-  lng: number;
-  timezone: string;
-}
-
-export interface TimeWindow {
-  start: Date;
-  end: Date;
-}
-
-export interface Load {
-  id: string;
-  origin: Location;
-  destination: Location;
-  pickupWindow: TimeWindow;
-  deliveryWindow: TimeWindow;
-  rate: number;
-  miles: number;
-  rpm: number;
-  equipmentType: string;
-  weight: number;
-  brokerId: string;
-  source: string;
-  company: string;
-  deadheadMiles: number;
-}
-
-export function generateLoads(count: number = 10): Load[] {
+export function generateLoads(count: number = 200): Load[] {
   const loads: Load[] = [];
   const today = new Date();
+  const cityNames = Object.keys(cityMetadata);
+  
   for (let i = 0; i < count; i++) {
-    const origin = randomChoice(cities);
-    let destination = randomChoice(cities);
-    while (destination.id === origin.id) {
-      destination = randomChoice(cities);
+    const originCity = randomChoice(cityNames);
+    let destinationCity = randomChoice(cityNames);
+    while (destinationCity === originCity) {
+      destinationCity = randomChoice(cityNames);
     }
-    const equipmentType = randomChoice(equipmentTypes);
+    
+    const origin = { city: originCity, ...cityMetadata[originCity] };
+    const destination = { city: destinationCity, ...cityMetadata[destinationCity] };
+    
+    // Calculate actual distance using coordinates
+    const miles = calculateDistance(
+      origin.lat, origin.lng,
+      destination.lat, destination.lng
+    );
+    
+    const equipmentType = randomChoice(Object.keys(equipmentTypes)) as keyof typeof equipmentTypes;
+    const rpm = randomFloat(
+      equipmentTypes[equipmentType].minRPM,
+      equipmentTypes[equipmentType].maxRPM
+    );
+    const rate = Math.round(rpm * miles);
+    
     const company = randomChoice(companies);
     const weight = randomInt(20000, 48000); // lbs
-    const miles = randomInt(100, 600);
-    const rate = randomInt(400, 1500);
-    const rpm = parseFloat((rate / miles).toFixed(2));
+    
+    // Generate realistic time windows
     const pickupStart = addDays(today, randomInt(0, 7));
     const pickupEnd = addMinutes(pickupStart, randomInt(30, 120));
-    const deliveryStart = addMinutes(pickupEnd, randomInt(120, 600));
+    
+    // Calculate delivery time based on distance (assuming 50 mph average speed)
+    const driveTimeMinutes = Math.round((miles / 50) * 60);
+    const deliveryStart = addMinutes(pickupEnd, driveTimeMinutes);
     const deliveryEnd = addMinutes(deliveryStart, randomInt(30, 120));
-    const deadheadMiles = randomInt(0, 150);
+    
     loads.push({
       id: `load_${i}_${Date.now()}`,
       origin,
@@ -89,17 +67,14 @@ export function generateLoads(count: number = 10): Load[] {
       brokerId: `${company.replace(/\s/g, '').toLowerCase()}_id`,
       source: 'test',
       company,
-      deadheadMiles,
     });
   }
   return loads;
 }
 
-if (require.main === module) {
-  // Only run if executed directly
-  const fs = require('fs');
-  const path = require('path');
-  const loads = generateLoads(10);
+// Check if this file is being run directly
+if (import.meta.url === `file://${process.argv[1]}`) {
+  const loads = generateLoads(200);
   const ts = Date.now();
   const outDir = path.resolve(__dirname, '../../test-data');
   if (!fs.existsSync(outDir)) {

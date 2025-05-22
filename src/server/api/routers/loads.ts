@@ -1,5 +1,8 @@
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "../trpc";
+import { generateLoads } from '../../../lib/scripts/generateLoads';
+import { buildLoadGraph, findOptimalPath } from '../../../lib/loads/graph';
+import type { Load, LoadGraph } from '../../../lib/loads/types';
 
 // Schema definitions
 const locationSchema = z.object({
@@ -42,6 +45,36 @@ const routeSchema = z.object({
 });
 
 export const loadsRouter = createTRPCRouter({
+  generate: publicProcedure
+    .input(z.object({
+      count: z.number().min(1).max(1000).default(200)
+    }))
+    .mutation(async ({ input }) => {
+      const loads = generateLoads(input.count);
+      return loads;
+    }),
+
+  buildGraph: publicProcedure
+    .input(z.object({
+      loads: z.array(z.custom<Load>())
+    }))
+    .mutation(async ({ input }) => {
+      const graph = buildLoadGraph(input.loads);
+      return graph;
+    }),
+
+  findPath: publicProcedure
+    .input(z.object({
+      graph: z.custom<LoadGraph>(),
+      startLoadId: z.string(),
+      maxLoads: z.number().min(1).max(10).default(5)
+    }))
+    .mutation(async ({ input }) => {
+      const startLoad = input.graph.nodes.find(load => load.id === input.startLoadId);
+      if (!startLoad) throw new Error('Start load not found');
+      return findOptimalPath(input.graph, startLoad, input.maxLoads);
+    }),
+
   // Generate test data
   generateTestData: publicProcedure
     .input(z.object({
